@@ -15,7 +15,3 @@ app.listen(port, (err)=>{
 app.get('/', (req,res)=>{
     res.send('hello there!');
 } );
-
-app.get('other/route', (res,res)=>{
-    res.send('hey');
-})
